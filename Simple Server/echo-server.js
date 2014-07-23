@@ -6,4 +6,5 @@ var s = net.createServer(function(socket){
        socket.write(data);
    });
 });
+console.log('Server started at port 8000');
 s.listen('8000');
